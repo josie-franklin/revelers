@@ -1,0 +1,39 @@
+#header {
+  background: var(--black);
+  background-size: cover;
+}
+
+#sidebar {
+  background: linear-gradient(
+    135deg,
+    rgba(204, 119, 0, 1),
+    rgba(255, 191, 0, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 191, 0, 1),
+    rgba(255, 191, 0, 1),
+    rgba(255, 191, 0, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 191, 0, 1),
+    rgba(204, 119, 0, 1)
+  );
+}
+
+.sidebar-list {
+  list-style: none;
+  width: 200px;
+}
+
+.sidebar-list li {
+  margin-top: 10px;
+}
+
+.sidebar-list a {
+  color: var(--dark-gold);
+  text-shadow: 0 1px 1px var(--white);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
