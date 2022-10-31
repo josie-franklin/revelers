@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "KolkerBrush";
+  src: url("../fonts/kolkerbrushrob.ttf");
+}
+
 :root {
   --black: #1f1a17;
   --white: #fff;
@@ -57,6 +62,10 @@
 
 .padding {
   padding: 30px;
+}
+
+.kolkerbrush {
+  font-family: "KolkerBrush";
 }
 
 /* Utility classes end here */
