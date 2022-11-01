@@ -1,6 +1,59 @@
 #header {
-  background: var(--black);
-  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, .75),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../images/header.jpg");
+  /* background-size: cover; */
+  background-position: right;
+}
+
+#header a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+#logo {
+  position: relative;
+  padding: 60px;
+}
+
+#nc {
+  position: absolute;
+  left: 145px;
+  top: 15px;
+  font-size: 20px;
+}
+
+#revelers {
+  position: absolute;
+  font-size: 140px;
+  top: -55px;
+  left: 10px;
+  padding-right: 10px;
+  background-color: var(--gold);
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 191, 0, 1),
+    rgba(255, 191, 0, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 191, 0, 1),
+    rgba(255, 191, 0, 1)
+  );
+  background-size: 100%;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#orchestra {
+  font-size: 15px;
+  position: absolute;
+  top: 92px;
+  left: 145px;
 }
 
 #sidebar {
@@ -16,6 +69,7 @@
     rgba(255, 191, 0, 1),
     rgba(204, 119, 0, 1)
   );
+  height: 85vh;
 }
 
 .sidebar-list {

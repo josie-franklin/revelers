@@ -9,6 +9,11 @@
   src: url("../fonts/kolkerbrushrob.ttf");
 }
 
+@font-face {
+  font-family: "Neuropolitical";
+  src: url("../fonts/neuropolitical.rg-regular.ttf");
+}
+
 :root {
   --black: #1f1a17;
   --white: #fff;
@@ -66,6 +71,10 @@
 
 .kolkerbrush {
   font-family: "KolkerBrush";
+}
+
+.neuropolitical {
+  font-family: "Neuropolitical";
 }
 
 /* Utility classes end here */
