@@ -4,9 +4,9 @@
       rgba(0, 0, 0, 1),
       rgba(0, 0, 0, 1),
       rgba(0, 0, 0, 1),
-      rgba(0, 0, 0, .9),
+      rgba(0, 0, 0, 0.9),
       rgba(0, 0, 0, 0.25),
-      rgba(255, 255, 255, .25)
+      rgba(255, 255, 255, 0.25)
     ),
     url("../images/header.jpg");
   /* background-size: cover; */
@@ -92,4 +92,57 @@
 
 h1 {
   font-size: 2rem;
+}
+
+h3 {
+  color: var(--dark-gold);
+}
+
+/* Event page styles begin below */
+
+.event-notes {
+  font-size: 0.8rem;
+  list-style-position: inside;
+  color: var(--dark-gold);
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border: 2px solid var(--dark-gold);
+  color: var(--dark-gold);
+}
+
+.table-headers {
+  background: linear-gradient(
+    135deg,
+    rgba(204, 119, 0, 1),
+    rgba(255, 191, 0, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 191, 0, 1),
+    rgba(255, 191, 0, 1),
+    rgba(255, 191, 0, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 191, 0, 1),
+    rgba(204, 119, 0, 1)
+  );
+  text-shadow: 0 1px 1px var(--white);
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 15px;
+}
+
+td {
+  border: 1px solid var(--dark-gold);
+  /* background-color: #ffdf80; */
+}
+
+tr:nth-child(even) {
+  background-color: #ffecb3;
 }
