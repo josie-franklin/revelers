@@ -232,3 +232,15 @@ tr:nth-child(even) {
     margin-left: 145px;
   }
 }
+
+@media screen and (max-width: 437px) {
+  table {
+    font-size: 0.65rem;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  table {
+    font-size: 0.5rem;
+  }
+}
