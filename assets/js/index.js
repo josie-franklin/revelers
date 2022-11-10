@@ -15,3 +15,9 @@ closeIcon.addEventListener("click", () => {
   pageCover.classList.toggle("visible");
   body.classList.toggle("stop-scroll");
 });
+
+pageCover.addEventListener("click", () => {
+  sidebar.classList.toggle("visible");
+  pageCover.classList.toggle("visible");
+  body.classList.toggle("stop-scroll");
+});
