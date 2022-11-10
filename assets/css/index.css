@@ -61,6 +61,14 @@
   align-items: center;
 }
 
+.align-end {
+  align-items: flex-end;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
 .margin-top {
   margin-top: 20px;
 }
@@ -115,6 +123,12 @@ h2 {
   font-size: 1.5rem;
 }
 
+.home-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .btn {
   font-family: inherit;
   padding: 10px;
@@ -143,3 +157,33 @@ h2 {
 }
 
 /* Specific classes end here */
+
+@media screen and (max-width: 800px) {
+  .home-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    margin-top: 15px;
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 532px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #landing-blurb {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+}
